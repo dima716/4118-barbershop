@@ -35,49 +35,51 @@
         <li class="breadcrumbs__item breadcrumbs__item_active"><a href="#" class="breadcrumbs__link">средства для ухода</a></li>
       </ul>
       <div class="catalog-content__left">
-        <h2 class="title title_level_secondary">производители:</h2>
-        <ul class="brands">
-          <li class="brands__item">
-            <input class="checkbox" id="baxter-of-california" type="checkbox" checked>
-            <label class="label brands__label" for="baxter-of-california">baxter of california</label>
-          </li>
-          <li class="brands__item">
-            <input class="checkbox" id="mr-natty" type="checkbox">
-            <label class="label brands__label" for="mr-natty">mr natty</label>
-          </li>
-          <li class="brands__item">
-            <input class="checkbox" id="suavetico" type="checkbox" checked>
-            <label class="label brands__label" for="suavetico">suavetico</label>
-          </li>
-          <li class="brands__item">
-            <input class="checkbox" id="malin-goetz" type="checkbox">
-            <label class="label brands__label" for="malin-goetz">malin+goetz</label>
-          </li>
-          <li class="brands__item">
-            <input class="checkbox" id="murrays" type="checkbox">
-            <label class="label brands__label" for="murrays">murray's</label>
-          </li>
-          <li class="brands__item">
-            <input class="checkbox" id="american-crew" type="checkbox" checked>
-            <label class="label brands__label" for="american-crew">american crew</label>
-          </li>
-        </ul>
-        <h2 class="title title_level_secondary">группы товаров:</h2>
-        <ul class="products-groups">
-          <li class="products-groups__item">
-            <input class="radio" id="shaving-supplies" type="radio">
-            <label class="label products-groups__label" for="shaving-supplies">бритвенные принадлежности</label>
-          </li>
-          <li class="products-groups__item">
-            <input class="radio" id="care-supplies" type="radio" checked>
-            <label class="label products-groups__label" for="care-supplies">средства для ухода</label>
-          </li>
-          <li class="products-groups__item">
-            <input class="radio" id="accessories" type="radio">
-            <label class="label products-groups__label" for="accessories">аксессуары</label>
-          </li>
-        </ul>
-        <input class="button" type="submit" name="button" value="показать">
+        <form class="catalog-content-form" action="#" method="get">
+          <h2 class="title title_level_secondary">производители:</h2>
+          <ul class="brands">
+            <li class="brands__item">
+              <input class="checkbox" id="baxter-of-california" type="checkbox" name="baxter-of-california" checked>
+              <label class="label brands__label" for="baxter-of-california">baxter of california</label>
+            </li>
+            <li class="brands__item">
+              <input class="checkbox" id="mr-natty" type="checkbox" name="mr-natty">
+              <label class="label brands__label" for="mr-natty">mr natty</label>
+            </li>
+            <li class="brands__item">
+              <input class="checkbox" id="suavetico" type="checkbox" name="suavetico" checked>
+              <label class="label brands__label" for="suavetico">suavetico</label>
+            </li>
+            <li class="brands__item">
+              <input class="checkbox" id="malin-goetz" type="checkbox" name="malin-goetz">
+              <label class="label brands__label" for="malin-goetz">malin+goetz</label>
+            </li>
+            <li class="brands__item">
+              <input class="checkbox" id="murrays" type="checkbox" name="murrays">
+              <label class="label brands__label" for="murrays">murray's</label>
+            </li>
+            <li class="brands__item">
+              <input class="checkbox" id="american-crew" type="checkbox" name="american-crew" checked>
+              <label class="label brands__label" for="american-crew">american crew</label>
+            </li>
+          </ul>
+          <h2 class="title title_level_secondary">группы товаров:</h2>
+          <ul class="products-groups">
+            <li class="products-groups__item">
+              <input class="radio" id="shaving-supplies" type="radio" name="products-groups" value="shaving-supplies">
+              <label class="label products-groups__label" for="shaving-supplies">бритвенные принадлежности</label>
+            </li>
+            <li class="products-groups__item">
+              <input class="radio" id="care-supplies" type="radio" name="products-groups" value="care-supplies" checked>
+              <label class="label products-groups__label" for="care-supplies">средства для ухода</label>
+            </li>
+            <li class="products-groups__item">
+              <input class="radio" id="accessories" type="radio" name="products-groups" value="accessories">
+              <label class="label products-groups__label" for="accessories">аксессуары</label>
+            </li>
+          </ul>
+          <input class="button" type="submit" name="button" value="показать">
+        </form>
       </div>
       <div class="catalog-content__right">
         <ul class="products">
