@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
         <div class="logo">
           <a class="logo__link" href="#">
-            <img class="logo__image" src="http://placehold.it/111x24" width="111" height="24" alt="Барбершоп">
+            <img class="logo__image" src="img/logo.png" width="111" height="24" alt="Барбершоп">
           </a>
         </div>
         <nav class="main-navigation">
@@ -34,43 +35,37 @@
           <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">магазин</a></li>
           <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">средства для ухода</a></li>
           <li class="breadcrumbs__item breadcrumbs__item_active">
-            <a class="breadcrumbs__link" href="#">набор для путешествий &laquo;baxter of california&raquo;</a>
+            набор для путешествий &laquo;baxter of california&raquo;
           </li>
         </ul>
         <div class="catalog-item__left">
           <div class="slider">
             <img class="slider__main-image"
-            src="http://placehold.it/980x1062"
-            width="980"
-            height="1062"
+            src="img/catalog-item.jpg"
+            width="489"
+            height="527"
             alt="набор для путешествий &laquo;baxter of california&raquo;">
             <ul class="slider-thumbnails">
               <li class="slider-thumbnails__item">
-                <a class="slider-thumbnails__link" href="http://placehold.it/980x1062">
-                  <img class="slider-thumbnails__image"
-                  src="http://placehold.it/169x178"
-                  width="169"
-                  height="178"
-                  alt="набор для путешествий &laquo;baxter of california&raquo;">
-                </a>
+                <img class="slider-thumbnails__image"
+                src="img/catalog-item-thumbnail-1.jpg"
+                width="140"
+                height="149"
+                alt="набор для путешествий &laquo;baxter of california&raquo;">
               </li>
               <li class="slider-thumbnails__item">
-                <a class="slider-thumbnails__link" href="http://placehold.it/980x1062">
-                  <img class="slider-thumbnails__image"
-                  src="http://placehold.it/169x178"
-                  width="169"
-                  height="178"
-                  alt="набор для путешествий &laquo;baxter of california&raquo;">
-                </a>
+                <img class="slider-thumbnails__image"
+                src="img/catalog-item-thumbnail-2.jpg"
+                width="140"
+                height="149"
+                alt="набор для путешествий &laquo;baxter of california&raquo;">
               </li>
               <li class="slider-thumbnails__item">
-                <a class="slider-thumbnails__link" href="http://placehold.it/980x1062">
-                  <img class="slider-thumbnails__image"
-                  src="http://placehold.it/169x178"
-                  width="169"
-                  height="178"
-                  alt="набор для путешествий &laquo;baxter of california&raquo;">
-                </a>
+                <img class="slider-thumbnails__image"
+                src="img/catalog-item-thumbnail-3.jpg"
+                width="140"
+                height="149"
+                alt="набор для путешествий &laquo;baxter of california&raquo;">
               </li>
             </ul>
           </div>
@@ -133,6 +128,20 @@
         </section>
       </div>
     </footer>
+    <form class="login-form" action="#" method="post">
+      <span class="login-form__title">личный кабинет</span>
+      <p class="login-form__text">введите пожалуйста свой логин и пароль</p>
+      <input class="login-form__input login-form__input_type_login" type="text" name="login" placeholder="логин">
+      <input class="login-form__input login-form__input_type_password" type="password" name="login" placeholder="пароль">
+      <div class="login-form__actions">
+        <div class="login-form__remember-me-option">
+          <input class="checkbox" id="remember-me-option" type="checkbox" name="remember-me-option" checked>
+          <label class="label login-form__label" for="remember-me-option">запомните меня</label>
+        </div>
+        <a class="login-form__forget-password-option" href="#">я забыл пароль!</a>
+      </div>
+      <a class="button login-form__button" href="#">войти</a>
+    </form>
   </body>
 </html>
 
