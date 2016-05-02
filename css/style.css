@@ -9,18 +9,22 @@ body {
 
 .title {
   color: #000;
+  margin: 0;
 }
 
 .title_level_primary {
-  margin: 0;
   font-size: 30px;
   line-height: 42px;
 }
 
 .title_level_secondary {
-  margin: 0;
   font-size: 24px;
   line-height: 30px;
+}
+
+.title_level_tertiary {
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .container {
@@ -113,11 +117,160 @@ body {
   padding-left: 10px;
 }
 
-/* HEADER */
+/* /HEADER */
 
+
+/* CATALOG */
 .catalog-content {
+  padding-top: 54px;
   background: #f8f5f2 url(../img/bg-main.png);
 }
+
+.catalog-content__title {
+  margin-bottom: 21px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.breadcrumbs {
+  margin-bottom: 54px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.catalog-content__left {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.catalog-content__right {
+  float: right;
+  width: 700px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.catalog-content-form__title {
+  margin-bottom: 31px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.brands {
+  margin-bottom: 52px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.products-groups {
+  margin-bottom: 50px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.products {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 45px;
+  font-size: 0;
+
+  outline: 1px dotted #CC3333;
+}
+
+.products__item {
+  display: inline-block;
+  vertical-align: top;
+
+  width: 220px;
+  margin-right: 20px;
+
+  font-size: 14px;
+
+  background-color: #fff;
+
+  outline: 1px dotted #CC3333;
+}
+
+.products__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.products__link {
+  display: block;
+}
+
+.products__image {
+  outline: 1px dotted #CC3333;
+}
+
+.products__title {
+  margin-top: 13px;
+  margin-bottom: 15px;
+
+  padding-left: 15px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.products__category,
+.products__brand {
+  display: block;
+}
+
+.products__actions {
+  margin-bottom: 15px;
+  padding-left: 15px;
+
+  outline: 1px dotted #CC3333;
+}
+
+.paginator {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 0;
+
+  outline: 1px dotted #CC3333;
+}
+
+.paginator__item {
+  display: inline-block;
+  vertical-align: top;
+
+  font-size: 14px;
+
+  margin-right: 7px;
+}
+
+.paginator__item_active {
+  padding: 14px 19px;
+  color: #000;
+  background-color: #fff;
+}
+
+.paginator__link {
+  display: block;
+  padding: 14px 19px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+
+
+/* /CATALOG */
+
+
+
+
+
+
+
 
 .main-footer {
   background: #232323 url(../img/bg-footer.png);
@@ -126,4 +279,3 @@ body {
 .login-form {
   display: none;
 }
-
