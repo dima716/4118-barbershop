@@ -1,8 +1,9 @@
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.25;
   color: #000;
-  font-weight: bold;
   font-family: Tahoma, sans-serif;
 }
 
@@ -11,11 +12,118 @@ body {
 }
 
 .title_level_primary {
+  margin: 0;
   font-size: 30px;
   line-height: 42px;
 }
 
 .title_level_secondary {
+  margin: 0;
   font-size: 24px;
   line-height: 30px;
 }
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+
+  outline: 1px dotted #279B61;
+}
+
+.container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* HEADER */
+.main-header {
+  background-color: #000;
+}
+
+.logo {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+
+  outline: 1px dotted #3F5D7D;
+}
+
+.logo__link {
+  display: block;
+  padding: 23px 0;
+  text-align: center;
+}
+
+.main-navigation {
+  float: left;
+  width: 620px;
+  margin-right: 20px;
+  outline: 1px dotted #3F5D7D;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+
+  outline: 1px dotted #3F5D7D;
+}
+
+.login {
+  display: block;
+  position: relative;
+  padding: 25px 0;
+  padding-left: 85px;
+
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.login:before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 16px;
+  background: url(../img/login-icon.png);
+  left: 54px;
+  top: 27px;
+}
+
+.menu {
+  padding: 0;
+  font-size: 0;
+}
+
+.menu__item {
+  display: inline-block;
+}
+
+.menu__link {
+  display: block;
+  padding: 25px 20px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu__item:first-child .menu__link {
+  padding-left: 10px;
+}
+
+/* HEADER */
+
+.catalog-content {
+  background: #f8f5f2 url(../img/bg-main.png);
+}
+
+.main-footer {
+  background: #232323 url(../img/bg-footer.png);
+}
+
+.login-form {
+  display: none;
+}
+
