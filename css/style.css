@@ -260,21 +260,44 @@ body {
   text-decoration: none;
   background-color: #000;
 }
-
-
-
 /* /CATALOG */
 
-
-
-
-
-
-
-
+/* FOOTER */
 .main-footer {
   background: #232323 url(../img/bg-footer.png);
+
+  outline: 1px dotted #FFCC33;
 }
+
+.main-footer__container {
+  padding-top: 58px;
+  padding-bottom: 38px;
+
+  outline: 1px dotted #FFCC33;
+}
+
+.contacts {
+  float: left;
+  width: 310px;
+  margin-right: 90px;
+
+  outline: 1px dotted #FFCC33;
+}
+
+.social {
+  float: left;
+  width: 140px;
+
+  outline: 1px dotted #FFCC33;
+}
+
+.copyright {
+  width: 140px;
+  float: right;
+
+  outline: 1px dotted #FFCC33;
+}
+/* /FOOTER */
 
 .login-form {
   display: none;
